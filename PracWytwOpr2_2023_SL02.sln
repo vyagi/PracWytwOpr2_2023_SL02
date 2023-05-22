@@ -7,17 +7,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Geometry\Geomet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry.Tests", "Geometry.Tests\Geometry.Tests.csproj", "{EBFE80F7-09C0-4A16-8733-D6516ADE97FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{45A0B428-E51D-4866-A592-35E421A735B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{45A0B428-E51D-4866-A592-35E421A735B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern.Tests", "SingletonPattern.Tests\SingletonPattern.Tests.csproj", "{8E73ED02-E2D6-4EF1-A5AD-FD164F572BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern.Tests", "SingletonPattern.Tests\SingletonPattern.Tests.csproj", "{8E73ED02-E2D6-4EF1-A5AD-FD164F572BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{59667B8B-A375-4CDD-8CED-B33831216559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{59667B8B-A375-4CDD-8CED-B33831216559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherConditionsApp", "WeatherConditionsApp\WeatherConditionsApp.csproj", "{5B675CFC-BF68-4500-8E54-7746104096E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherConditionsApp", "WeatherConditionsApp\WeatherConditionsApp.csproj", "{5B675CFC-BF68-4500-8E54-7746104096E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderPattern", "FluentBuilderPattern\FluentBuilderPattern.csproj", "{ACE0C5C5-F350-4852-8B2C-40EADADC372B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilderPattern", "FluentBuilderPattern\FluentBuilderPattern.csproj", "{ACE0C5C5-F350-4852-8B2C-40EADADC372B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarineApp", "MarineApp\MarineApp.csproj", "{7BE66003-C94B-4AD0-9B1B-0269DF94B7BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarineApp", "MarineApp\MarineApp.csproj", "{7BE66003-C94B-4AD0-9B1B-0269DF94B7BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{8A7698AA-C456-4193-931C-2BF99B3E95A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternTests", "FactoryPatternTests\FactoryPatternTests.csproj", "{E3EE09C8-8C9E-455D-9B37-AC7AC87FA5CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{EEFC1C0F-1116-4898-B75E-0DCC1393AF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternTests", "DecoratorPatternTests\DecoratorPatternTests.csproj", "{B5F8178B-F893-4511-88E8-308575F7CD68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{7BE66003-C94B-4AD0-9B1B-0269DF94B7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BE66003-C94B-4AD0-9B1B-0269DF94B7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BE66003-C94B-4AD0-9B1B-0269DF94B7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7698AA-C456-4193-931C-2BF99B3E95A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7698AA-C456-4193-931C-2BF99B3E95A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7698AA-C456-4193-931C-2BF99B3E95A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7698AA-C456-4193-931C-2BF99B3E95A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EE09C8-8C9E-455D-9B37-AC7AC87FA5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EE09C8-8C9E-455D-9B37-AC7AC87FA5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EE09C8-8C9E-455D-9B37-AC7AC87FA5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EE09C8-8C9E-455D-9B37-AC7AC87FA5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEFC1C0F-1116-4898-B75E-0DCC1393AF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFC1C0F-1116-4898-B75E-0DCC1393AF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFC1C0F-1116-4898-B75E-0DCC1393AF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFC1C0F-1116-4898-B75E-0DCC1393AF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F8178B-F893-4511-88E8-308575F7CD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F8178B-F893-4511-88E8-308575F7CD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F8178B-F893-4511-88E8-308575F7CD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F8178B-F893-4511-88E8-308575F7CD68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
