@@ -19,13 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilderPattern", "Flu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarineApp", "MarineApp\MarineApp.csproj", "{7BE66003-C94B-4AD0-9B1B-0269DF94B7BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{0920A695-3F6B-474F-B5BF-3CFFFBEA55C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{0920A695-3F6B-474F-B5BF-3CFFFBEA55C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternTests", "FactoryPatternTests\FactoryPatternTests.csproj", "{1221433A-9087-4B7C-86E3-57299D66D047}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPatternTests", "FactoryPatternTests\FactoryPatternTests.csproj", "{1221433A-9087-4B7C-86E3-57299D66D047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{AFAFD4F5-C3BB-4A43-9B76-1F0E0ACCFA42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{AFAFD4F5-C3BB-4A43-9B76-1F0E0ACCFA42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorTests", "DecoratorTests\DecoratorTests.csproj", "{5376E0E8-807C-4C2E-9749-141ED8D4A958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorTests", "DecoratorTests\DecoratorTests.csproj", "{5376E0E8-807C-4C2E-9749-141ED8D4A958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{98B6B757-55E7-4559-9F2E-D4DA392301BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPatternTests", "MementoPatternTests\MementoPatternTests.csproj", "{4BCE3EB5-A521-42A9-951D-C92EFAE9DD5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{5376E0E8-807C-4C2E-9749-141ED8D4A958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5376E0E8-807C-4C2E-9749-141ED8D4A958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5376E0E8-807C-4C2E-9749-141ED8D4A958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B6B757-55E7-4559-9F2E-D4DA392301BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B6B757-55E7-4559-9F2E-D4DA392301BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B6B757-55E7-4559-9F2E-D4DA392301BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B6B757-55E7-4559-9F2E-D4DA392301BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCE3EB5-A521-42A9-951D-C92EFAE9DD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCE3EB5-A521-42A9-951D-C92EFAE9DD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCE3EB5-A521-42A9-951D-C92EFAE9DD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCE3EB5-A521-42A9-951D-C92EFAE9DD5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
